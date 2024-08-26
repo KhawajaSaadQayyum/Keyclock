@@ -2,6 +2,12 @@
 #server.port=8090
 server:
   port: 8081
+jwt:
+  auth:
+    converter:
+      resource-id: saad-rest-api
+      principle-attributes: preferred_username
+
 
 spring:
   security:
